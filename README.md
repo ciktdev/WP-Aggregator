@@ -1,7 +1,7 @@
 📰 WP-Aggregator
 
 WP-Aggregator is a lightweight and visually engaging web application that automatically fetches and displays the latest posts from any WordPress website.
-It retrieves the newest 20 posts, lists their titles vertically, and generates QR codes that link directly to each post.
+It retrieves the newest 10 posts, lists their titles vertically, and generates QR codes that link directly to each post.
 
 ✨ Overview
 
@@ -24,7 +24,7 @@ The overall design follows a modern, minimalist aesthetic, ensuring excellent re
 
 🕸️ Fetches live posts using the WordPress REST API
 
-🆕 Displays the latest 20 posts (newest at the top)
+🆕 Displays the latest 10 posts (newest at the top)
 
 🔁 Auto-refreshes hourly to keep data updated
 
