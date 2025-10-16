@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МФУБ Факултет</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Gornja traka -->
+  <div class="topbar">
+    <img src="IMG_5285.png" alt="Logo" class="logo">
+    <h1 class="title">Обавештења Факултет</h1>
+  </div>
+
+  <!-- Fullscreen video -->
+  <video id="specialVideo" autoplay muted playsinline loop>
+  <source src="Boat_15.mp4" type="video/mp4">
+</video>
+  <!-- Sadržaj -->
+  <main>
+    <div id="tickerWrapper">
+      <ul id="postsList"></ul>
+    </div>
+    <div id="statusBar"><span id="lastUpdated">Напомена: Садржај странице се ажурира на сваких сат времена.</span></div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="foot">
+    <div>Центар за информационе и комуникационе технологије</div>
+    <div>Универзитет у Београду, Медицински факултет</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
