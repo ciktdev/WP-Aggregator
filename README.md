@@ -50,4 +50,7 @@ const targetSite = "https://exampleblog.com";
 
 Place logo.jpg in the same directory as index.html.
 
+Start node server:
+cd into project directory and run npm start
+
 Open index.html in your browser — the app will start automatically.
